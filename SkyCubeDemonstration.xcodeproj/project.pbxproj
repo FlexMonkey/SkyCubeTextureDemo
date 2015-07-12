@@ -12,6 +12,8 @@
 		BEB3BF491B5136F500F356B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB3BF471B5136F500F356B3 /* Main.storyboard */; };
 		BEB3BF4B1B5136F500F356B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB3BF4A1B5136F500F356B3 /* Assets.xcassets */; };
 		BEB3BF4E1B5136F500F356B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB3BF4C1B5136F500F356B3 /* LaunchScreen.storyboard */; };
+		BEB3BF761B52953900F356B3 /* SliderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3BF751B52953900F356B3 /* SliderWidget.swift */; };
+		BEB3BF781B529D0100F356B3 /* skycube.gif in Resources */ = {isa = PBXBuildFile; fileRef = BEB3BF771B529D0100F356B3 /* skycube.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BEB3BF4A1B5136F500F356B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB3BF4D1B5136F500F356B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB3BF4F1B5136F500F356B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB3BF751B52953900F356B3 /* SliderWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderWidget.swift; sourceTree = "<group>"; };
+		BEB3BF771B529D0100F356B3 /* skycube.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = skycube.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		BEB3BF421B5136F500F356B3 /* SkyCubeDemonstration */ = {
 			isa = PBXGroup;
 			children = (
+				BEB3BF771B529D0100F356B3 /* skycube.gif */,
 				BEB3BF431B5136F500F356B3 /* AppDelegate.swift */,
 				BEB3BF451B5136F500F356B3 /* ViewController.swift */,
 				BEB3BF471B5136F500F356B3 /* Main.storyboard */,
 				BEB3BF4A1B5136F500F356B3 /* Assets.xcassets */,
 				BEB3BF4C1B5136F500F356B3 /* LaunchScreen.storyboard */,
 				BEB3BF4F1B5136F500F356B3 /* Info.plist */,
+				BEB3BF751B52953900F356B3 /* SliderWidget.swift */,
 			);
 			path = SkyCubeDemonstration;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB3BF4E1B5136F500F356B3 /* LaunchScreen.storyboard in Resources */,
+				BEB3BF781B529D0100F356B3 /* skycube.gif in Resources */,
 				BEB3BF4B1B5136F500F356B3 /* Assets.xcassets in Resources */,
 				BEB3BF491B5136F500F356B3 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEB3BF461B5136F500F356B3 /* ViewController.swift in Sources */,
+				BEB3BF761B52953900F356B3 /* SliderWidget.swift in Sources */,
 				BEB3BF441B5136F500F356B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
