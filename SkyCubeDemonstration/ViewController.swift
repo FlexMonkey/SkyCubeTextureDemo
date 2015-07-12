@@ -88,12 +88,9 @@ class ViewController: UIViewController
         
         material.specular.contents = UIColor.whiteColor()
         material.diffuse.contents =  UIColor.darkGrayColor()
-        material.reflective.contents = sky.imageFromTexture()?.takeUnretainedValue()
- 
+
         torus.materials = [material]
-        
-        sceneKitScene.background.contents = sky.imageFromTexture()?.takeUnretainedValue()
-        
+ 
         sliderChangeHandler()
     }
 
